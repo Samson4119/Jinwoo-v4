@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '263780166288';
+const defaultOwner = '2348144286491';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -19,9 +19,9 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ᴊɪɴᴡᴏᴏ ᴠ4';
+global.botname = process.env.BOTNAME || 'Richer ᴠ4';
 global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.SESSION_ID = process.env.SESSION_ID || 'cu8lTSbZ#Pkrr-dWIrEvq1Ai0kXvoPq6l3KfZT53DxehgxSKbQ94' ;  // put your session id here
 
 global.mods = []
 global.prems = []
@@ -73,8 +73,8 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'ᴊɪɴᴡᴏᴏ ᴠ4'
-global.author = 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ'
+global.packname = 'Richer ᴠ4'
+global.author = 'Richer ᴋɪɴɢ'
 global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/Techlord01'
 global.dygp = 'https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A'
